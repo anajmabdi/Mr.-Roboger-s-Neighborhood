@@ -15,3 +15,13 @@ function robotCountsTo(input) {
   }
   return inputArray;
 }
+
+function negativeNumbers(input) {
+  if (input < 0) {
+    const negativeArray = []
+    for (let i = 0; i >= input; i--) {
+      negativeArray.push(i);
+    }
+    return negativeArray
+  }
+}

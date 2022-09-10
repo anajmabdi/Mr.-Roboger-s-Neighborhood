@@ -1,6 +1,6 @@
 # <div align="center"> **Mr Roboger's Neighborhood**</div>
 
-#### <div align="center"> *Completed by yours truly,  <br> **Najma Abdi*** </div>  
+#### <div align="center"> **Created by <br>** Najma Abdi </div>  
 <p>&nbsp;</p>
 
 ## <div align="center"> Technologies Used
@@ -50,9 +50,17 @@
     Code: countUpTo(5)
     Expected Output: [0, "Beep", "Boop!", 3, 4, 5]
 
-    Test: "It should replace digits that contain 2 with 'Boop!'" and digits that contain 3 with 'Won't you be my neighbor?'" 
+    Test: "It should replace digits that contain 2 with 'Boop!'" and digits that contain 3 with "Won't you be my neighbor?"
     Code: countUpTo(13)
     Expected Output: [0, "Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]
+
+    Test: "It should count down to negative numbers from 0"
+    Code: negativeNumber(-5)
+    Expected Output: [0, -1, -2, -3, -4, -5]
+
+    Test: 
+    Code: 
+    Expected Output:
 <p>&nbsp;</p>
 
 #### License
