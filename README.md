@@ -36,7 +36,11 @@
 
     Test: "It should count up to user's input."
     Code: countUpTo(5)
-    Expected Output: [1, 2, 3, 4, 5]
+    Expected Output: [0, 1, 2, 3, 4, 5]
+
+    Test: "It should change 1 to "Beep"."
+    Code: countUpTo(5)
+    Expected Output: [0, "Beep", 2, 3, 4, 5]
 
     Test:
     Code:
