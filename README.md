@@ -45,6 +45,10 @@
     Test: "It should replace digits that contain a 1 with "Beep!""
     Code: countUpTo(10)
     Expected Output: [0, "Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!"]
+
+    Test: "It should replace 2 and 3 with "Boop!" and "Won't you be my neighbor?""
+    Code: countUpTo(5)
+    Expected Output: [0, "Beep", "Boop!", 3, 4, 5]
 <p>&nbsp;</p>
 
 #### License
