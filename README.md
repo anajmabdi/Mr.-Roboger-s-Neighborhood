@@ -32,7 +32,7 @@
 
 
 ## <div align="center"> TDD </div>
-    Describe: countUpTo(input)
+    Describe: robotCountsTo(input)
 
     Test: "It should count up to user's input."
     Code: countUpTo(5)
@@ -49,6 +49,10 @@
     Test: "It should replace 2 and 3 with "Boop!" and "Won't you be my neighbor?""
     Code: countUpTo(5)
     Expected Output: [0, "Beep", "Boop!", 3, 4, 5]
+
+    Test: "It should replace digits that contain 2 with 'Boop!'" and digits that contain 3 with 'Won't you be my neighbor?'" 
+    Code: countUpTo(13)
+    Expected Output: [0, "Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]
 <p>&nbsp;</p>
 
 #### License
