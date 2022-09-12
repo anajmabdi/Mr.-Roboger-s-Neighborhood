@@ -1,0 +1,17 @@
+.jumbotron {
+  text-align: center;
+  border: solid rgb(58, 35, 16) 5px;
+  background-color: burlywood;
+}
+
+body {
+  background-color: burlywood;
+}
+
+/* .hidden {
+  display: none;
+} */
+
+/* .output {
+  color: white;
+} */

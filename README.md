@@ -58,9 +58,9 @@
     Code: negativeNumber(-5)
     Expected Output: [0, -1, -2, -3, -4, -5]
 
-    Test: 
-    Code: 
-    Expected Output:
+    Test: "It should return null if there is no input"
+    Code: robotCountsDownTo()
+    Expected Output: null
 <p>&nbsp;</p>
 
 #### License
